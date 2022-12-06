@@ -1,0 +1,137 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: hsl(216, 12%, 8%);
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+}
+
+
+
+.star-icon {
+    width: 1rem;
+    margin: 1rem;
+
+}
+
+.circle-outline {
+    margin: 1rem;
+    width: 3rem;
+    border: 5px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    font-size: 12px;
+    color: hsl(216, 12%, 54%);
+}
+
+.title {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.list_change {
+    background-color: orange;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+div.bg-primary {
+    font-size: 12px;
+    border-radius: 50%;
+    height: 2rem;
+}
+
+
+button.btn.btn-primary {
+    font-size: 12px;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border-color: hsl(25, 97%, 53%);
+    background-color: hsl(25, 97%, 53%);
+
+}
+
+button.btn.btn-primary:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+button.btn.btn-primary:active {
+    border: none !important;
+}
+
+.attribution {
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.selected {
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.list_change {
+    background-color: orange;
+}
+
+p.selected_bottom {
+    color: hsl(216, 12%, 54%);
+    font-size: 12px;
+    margin-bottom: 5rem;
+}
+
+.selected {
+    display: none;
+}
